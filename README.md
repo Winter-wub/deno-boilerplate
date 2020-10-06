@@ -12,6 +12,7 @@ This boilerplate uses `make` to run the Deno commands.
 It is usually already installed on your Unix OS.
 
 You can use the following commands:
+- `make install`:   install development tools such as denon
 - `make run`:      executes the `index.ts`
 - `make test`:     runs the tests
 - `make format`:   formats all your files
@@ -22,10 +23,3 @@ You can use the following commands:
 
 In `src/log.ts` you can find a simple logger that is extendable.
 
-## ToDo
-
-- Overall extend the project
-- Think about a better developer experience
-- Think about a better folder structure
-- Create a companion CLI tool
-- Probably more...

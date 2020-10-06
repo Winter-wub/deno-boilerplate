@@ -1,5 +1,7 @@
+install:
+	deno install --allow-read --allow-run --allow-write --allow-net -f -q --unstable https://deno.land/x/denon@2.4.0/denon.ts
 run:
-	deno run --config tsconfig.json index.ts
+	denon start
 test:
 	deno test
 format:
@@ -9,4 +11,4 @@ debug:
 bundle:
 	rm -rf build/
 	mkdir build
-	deno bundle index.ts build/index
+	deno bundle index.ts build/index.ts

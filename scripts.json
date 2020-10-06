@@ -1,0 +1,15 @@
+{
+  "$schema": "https://deno.land/x/denon/schema.json",
+  "scripts": {
+    "start": {
+      "cmd": "deno run index.ts",
+      "desc": "start deno application in development mode",
+      "allow": [
+        "net",
+        "run",
+        "read",
+        "env"
+      ]
+    }
+  }
+}
